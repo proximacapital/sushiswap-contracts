@@ -1,0 +1,5 @@
+[default]
+solc = "0.6.12"
+bytecode_hash = "none"
+optimizer_runs = 1_000_000
+libs = ["node_modules"]
