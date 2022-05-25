@@ -10,5 +10,6 @@ coverage.json
 .env
 .DS_Store
 
-# Foundry
+# foundry
 /out
+!/out/MiniChefV2.sol
