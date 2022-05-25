@@ -11,5 +11,6 @@ coverage.json
 .DS_Store
 
 # foundry
-/out
+/out/*
 !/out/MiniChefV2.sol
+!/out/MasterChef.sol
