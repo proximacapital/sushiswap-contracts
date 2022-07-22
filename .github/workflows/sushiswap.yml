@@ -27,7 +27,7 @@ jobs:
 
       - name: Install and Compile
         run: |
-          yarn install
+          yarn install --frozen-lockfile
           yarn build
 
       - name: Test and Coverage
