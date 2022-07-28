@@ -30,8 +30,11 @@
     "sourceMap": "",
     "linkReferences": {}
   },
+  "methodIdentifiers": {
+    "migrate(address)": "ce5494bb"
+  },
   "ast": {
-    "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/MiniChefV2.sol",
+    "absolutePath": "contracts/MiniChefV2.sol",
     "id": 3486,
     "exportedSymbols": {
       "IMigratorChef": [
@@ -67,7 +70,7 @@
         "id": 2336,
         "nodeType": "ImportDirective",
         "src": "92:74:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
+        "absolutePath": "node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
         "file": "@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
         "scope": 3486,
         "sourceUnit": 24971,
@@ -78,7 +81,7 @@
         "id": 2337,
         "nodeType": "ImportDirective",
         "src": "167:69:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/node_modules/@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
+        "absolutePath": "node_modules/@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
         "file": "@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
         "scope": 3486,
         "sourceUnit": 24275,
@@ -89,7 +92,7 @@
         "id": 2338,
         "nodeType": "ImportDirective",
         "src": "237:67:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/node_modules/@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
+        "absolutePath": "node_modules/@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
         "file": "@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
         "scope": 3486,
         "sourceUnit": 24401,
@@ -100,7 +103,7 @@
         "id": 2339,
         "nodeType": "ImportDirective",
         "src": "305:40:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/libraries/SignedSafeMath.sol",
+        "absolutePath": "contracts/libraries/SignedSafeMath.sol",
         "file": "./libraries/SignedSafeMath.sol",
         "scope": 3486,
         "sourceUnit": 15424,
@@ -111,7 +114,7 @@
         "id": 2340,
         "nodeType": "ImportDirective",
         "src": "346:36:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/interfaces/IRewarder.sol",
+        "absolutePath": "contracts/interfaces/IRewarder.sol",
         "file": "./interfaces/IRewarder.sol",
         "scope": 3486,
         "sourceUnit": 14863,
@@ -122,7 +125,7 @@
         "id": 2341,
         "nodeType": "ImportDirective",
         "src": "383:38:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/interfaces/IMasterChef.sol",
+        "absolutePath": "contracts/interfaces/IMasterChef.sol",
         "file": "./interfaces/IMasterChef.sol",
         "scope": 3486,
         "sourceUnit": 14748,
@@ -15726,5 +15729,6 @@
       }
     ],
     "license": "MIT"
-  }
+  },
+  "id": 3
 }

@@ -843,8 +843,38 @@
       ]
     }
   },
+  "methodIdentifiers": {
+    "SUSHI()": "ab560e10",
+    "add(uint256,address,address)": "ab7de098",
+    "batch(bytes[],bool)": "d2423b51",
+    "claimOwnership()": "4e71e0c8",
+    "deposit(uint256,uint256,address)": "8dbdbe6d",
+    "emergencyWithdraw(uint256,address)": "2f940c70",
+    "harvest(uint256,address)": "18fccc76",
+    "lpToken(uint256)": "78ed5d1f",
+    "massUpdatePools(uint256[])": "57a5b58c",
+    "migrate(uint256)": "454b0608",
+    "migrator()": "7cd07e47",
+    "owner()": "8da5cb5b",
+    "pendingOwner()": "e30c3978",
+    "pendingSushi(uint256,address)": "195426ec",
+    "permitToken(address,address,address,uint256,uint256,uint8,bytes32,bytes32)": "7c516e94",
+    "poolInfo(uint256)": "1526fe27",
+    "poolLength()": "081e3eda",
+    "rewarder(uint256)": "c346253d",
+    "set(uint256,uint256,address,bool)": "88bba42f",
+    "setMigrator(address)": "23cf3118",
+    "setSushiPerSecond(uint256)": "9baf58c3",
+    "sushiPerSecond()": "a06e408b",
+    "totalAllocPoint()": "17caf6f1",
+    "transferOwnership(address,bool,bool)": "078dfbe7",
+    "updatePool(uint256)": "51eb05a6",
+    "userInfo(uint256,address)": "93f1a40b",
+    "withdraw(uint256,uint256,address)": "0ad58d2f",
+    "withdrawAndHarvest(uint256,uint256,address)": "d1abb907"
+  },
   "ast": {
-    "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/MiniChefV2.sol",
+    "absolutePath": "contracts/MiniChefV2.sol",
     "id": 3486,
     "exportedSymbols": {
       "IMigratorChef": [
@@ -880,7 +910,7 @@
         "id": 2336,
         "nodeType": "ImportDirective",
         "src": "92:74:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
+        "absolutePath": "node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
         "file": "@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
         "scope": 3486,
         "sourceUnit": 24971,
@@ -891,7 +921,7 @@
         "id": 2337,
         "nodeType": "ImportDirective",
         "src": "167:69:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/node_modules/@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
+        "absolutePath": "node_modules/@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
         "file": "@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
         "scope": 3486,
         "sourceUnit": 24275,
@@ -902,7 +932,7 @@
         "id": 2338,
         "nodeType": "ImportDirective",
         "src": "237:67:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/node_modules/@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
+        "absolutePath": "node_modules/@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
         "file": "@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
         "scope": 3486,
         "sourceUnit": 24401,
@@ -913,7 +943,7 @@
         "id": 2339,
         "nodeType": "ImportDirective",
         "src": "305:40:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/libraries/SignedSafeMath.sol",
+        "absolutePath": "contracts/libraries/SignedSafeMath.sol",
         "file": "./libraries/SignedSafeMath.sol",
         "scope": 3486,
         "sourceUnit": 15424,
@@ -924,7 +954,7 @@
         "id": 2340,
         "nodeType": "ImportDirective",
         "src": "346:36:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/interfaces/IRewarder.sol",
+        "absolutePath": "contracts/interfaces/IRewarder.sol",
         "file": "./interfaces/IRewarder.sol",
         "scope": 3486,
         "sourceUnit": 14863,
@@ -935,7 +965,7 @@
         "id": 2341,
         "nodeType": "ImportDirective",
         "src": "383:38:3",
-        "absolutePath": "/home/oliver/ghq/github.com/proximacapital/sushiswap-contracts/contracts/interfaces/IMasterChef.sol",
+        "absolutePath": "contracts/interfaces/IMasterChef.sol",
         "file": "./interfaces/IMasterChef.sol",
         "scope": 3486,
         "sourceUnit": 14748,
@@ -16539,5 +16569,6 @@
       }
     ],
     "license": "MIT"
-  }
+  },
+  "id": 3
 }
